@@ -1,0 +1,23 @@
+let myself = "   Hello! My name is Wajahat Ali    ";
+let myself2 = "I Love to playFootball";
+
+console.log(myself.toLowerCase());
+console.log(myself.toUpperCase());
+console.log(myself.trim());
+console.log(myself.charAt(3));
+console.log(myself.valueOf());
+console.log(myself.search("name"));
+console.log(myself.slice(4));
+console.log(myself.split());
+console.log(myself.toString());
+console.log(myself.charCodeAt(3));
+console.log(myself.concat(" I Love to playFootball"));
+console.log(myself.concat(" ", myself2));
+console.log(myself.includes("World"));
+console.log(myself.endsWith("Waoo"));
+console.log(myself.repeat(4));
+console.log(myself.startsWith("name"));
+console.log(myself.substring(4, 7));
+console.log(myself.indexOf("name"));
+console.log(myself.lastIndexOf("o"));
+console.log(myself.replace("Ali", "Malik"));
